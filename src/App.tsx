@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app-wrapper">
       <Alert type={"alert-default"}
-        icon={<BellRing size={20} />} title={'something went worng'}
+        icon={<BellRing size={20} />} title={'Upgrade your plan'}
 
       >
         <p>
@@ -13,10 +13,10 @@ function App() {
           <a href="/">laboriosam</a> iste totam officiis beatae quas.
         </p>
       </Alert>
-      <Alert type={"alert-info"} icon={<Info size={20} />} title={'something went worng'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa maxime qui quos minus laudantium esse, unde commodi, vel officia facere error optio repudiandae molestiae odio, libero beatae dignissimos provident et!'} />
-      <Alert type={"alert-warning"} icon={<OctagonX size={20} />} title={'something went worng'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa maxime qui quos minus laudantium esse, unde commodi, vel officia facere error optio repudiandae molestiae odio, libero beatae dignissimos provident et!'} />
+      <Alert type={"alert-info"} icon={<Info size={20} />} title={'Note'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa maxime qui quos minus laudantium esse, unde commodi, vel officia facere error optio repudiandae molestiae odio, libero beatae dignissimos provident et!'} />
+      <Alert type={"alert-warning"} icon={<OctagonX size={20} />} title={'Your order has been processed'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa maxime qui quos minus laudantium esse, unde commodi, vel officia facere error optio repudiandae molestiae odio, libero beatae dignissimos provident et!'} />
       <Alert type={"alert-error"} icon={<Ban size={20} />} title={'something went worng'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa maxime qui quos minus laudantium esse, unde commodi, vel officia facere error optio repudiandae molestiae odio, libero beatae dignissimos provident et!'} />
-      <Alert type={"alert-success"} icon={<AlertTriangle size={20} />} title={'something went worng'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa maxime qui quos minus laudantium esse, unde commodi, vel officia facere error optio repudiandae molestiae odio, libero beatae dignissimos provident et!'} />
+      <Alert type={"alert-success"} icon={<AlertTriangle size={20} />} title={'Tips & Tricks'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa maxime qui quos minus laudantium esse, unde commodi, vel officia facere error optio repudiandae molestiae odio, libero beatae dignissimos provident et!'} />
     </div>
   )
 }
